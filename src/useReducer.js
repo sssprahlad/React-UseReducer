@@ -50,7 +50,7 @@ const ReducerExanple = () => {
 
   return (
     <>
-      <h1>reducer example</h1>
+      <h1>use Reducer example</h1>
       {state.data.map((eachItem) => {
         const { id, name, age, email } = eachItem;
         return (
